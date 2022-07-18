@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Weartake</h1>
+        <nav>
+            <span href="" id="all">Todos</span>
+            <span href="" id="accessories">Acessórios</span>
+            <span href="" id="shoes">Calçados</span>
+            <span href="" id="tshirts">Camisetas</span>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <section class="sectionProductCard">
+                <ul id="listProductCard" class="card">
+                    
+                </ul>
+            </section>
+            <section class="shoppingCart">
+                <div class="search">
+                    <form action="" id="search-bar">
+                        <input type="text" placeholder="Digite aqui sua pesquisa" id="searchBar">
+                        
+                    </form>
+                </div>
+                <div class="cart">
+                    <h3>Carrinho de compras</h3>
+                    <ul id="listShoppingCart"></ul>
+
+                    <div class="cartInfo" id="fullCart">
+                        <div>
+                            <p >Quantidade Produtos:</p> <span id="productsCount">0</span>
+                        </div>
+                        <div>
+                            <p >Preço total:</p> <span id="valueCount">0</span>
+                        </div>
+                    </div>
+                    <div id="emptyCart" class="emptyCart">
+                        <h2>Carrinho vázio</h2>
+                        <span>Adicione itens</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="./js/database.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
