@@ -24,7 +24,7 @@
 
 .header nav span:hover{
     cursor: pointer;
-    font-size: 103%;
+    font-weight: 500;
 }
 
 .container{
