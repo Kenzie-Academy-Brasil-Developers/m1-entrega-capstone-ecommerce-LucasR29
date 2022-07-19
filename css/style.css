@@ -41,9 +41,13 @@
     width: 290px;
     gap: 20px;
     border-width: 3px;
-    border-color: gray;
+    border-color: rgb(233, 233, 233);
     border-style: solid;
     padding-bottom: 10px;
+}
+
+.card li:hover{
+    border-color: gray;
 }
 
 .card li img{
